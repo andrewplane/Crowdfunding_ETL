@@ -13,12 +13,12 @@ CREATE TABLE contacts (
 );
 
 CREATE TABLE category (
-    category_id VARCHAR(10),
+    category_id VARCHAR(10) NOT NULL PRIMARY KEY,
     category VARCHAR(100)
 );
 
 CREATE TABLE subcategory (
-    subcategory_id VARCHAR(10),
+    subcategory_id VARCHAR(10) NOT NULL PRIMARY KEY,
     subcategory VARCHAR(100)
 );
 

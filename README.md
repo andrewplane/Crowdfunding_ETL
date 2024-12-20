@@ -23,7 +23,8 @@ In this project, data is extracted from Excel files, cleaned and transformed in 
 ## Setup
 - Have environment setup to run the jupyter file (*.ipynb)
 - load schema into SQL environment (postgreSQL was used)
-- import the *.csv files into the tables with the same names
+- import the *.csv files into the tables with the same names 
+  - (import campaign.csv last due to foreign keys)
 
 ## Acknowledgements
  - This project was created as part of the EdX Data Analytics Bootcamp
