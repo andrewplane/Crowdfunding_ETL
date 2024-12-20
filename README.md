@@ -20,6 +20,11 @@ In this project, data is extracted from Excel files, cleaned and transformed in 
 ## Highlights
 ![ERD](Resources/ERD.jpg)
 
+- Data was imported from Excel files
+- Data fields with multiple data popints (first and last names or category/subcategory) were seperated into their own fields
+- Date and time information was formated for ease of reading
+- After general cleanup, files were exported into csv format for importing into SQL
+
 ## Setup
 - Have environment setup to run the jupyter file (*.ipynb)
 - load schema into SQL environment (postgreSQL was used)
