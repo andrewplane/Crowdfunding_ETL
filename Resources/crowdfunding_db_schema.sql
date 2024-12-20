@@ -39,3 +39,6 @@ CREATE TABLE campaign (
     FOREIGN KEY (category_id) REFERENCES category (category_id),
     FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id)
 );
+
+-- Test data with table containing foreign keys
+SELECT * FROM campaign;
